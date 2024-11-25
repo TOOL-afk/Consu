@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Optional: Add a background color for the header */
+}
+
+.logo {
+    height: 80px; /* Adjust the height as needed */
+    margin-right: 20px; /* Space between logo and heading */
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #90e7a7;
+}
